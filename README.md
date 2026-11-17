@@ -10,10 +10,10 @@
 3. [SAST + DAST findings](03_Consolidated_Findings.md) - SonarQube and ZAP results, with severity.
 4. [Secure coding discussion](04_Secure_Coding_Discussion.md) - impact and mitigation of the observed findings.
 
-## Evidence upload checklist
-The text deliverables above have been committed. The PDF and image evidence are **not yet uploaded**:
+## Evidence uploaded
+All files committed to the repository root:
 - `Lab7_Satyam_2301730306_Minimal.pdf`
 - `01_Threat_Model_DFD.png`
-- `Evidence/01_SonarScanner_Execution_Success.png` through `Evidence/10_Docker_DVWA_Local_Deployment.png`
+- 10 experiment screenshots: `01_SonarScanner_Execution_Success.png` through `10_Docker_DVWA_Local_Deployment.png`
 
 **Scope note:** DVWA was bound to localhost in Docker; a separate isolated VM was not demonstrated. Code review focused on representative files; findings need validation before calling them exploitable vulnerabilities.
